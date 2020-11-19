@@ -1,0 +1,5 @@
+class Obj():
+    """
+    docstring
+    """
+    pass
