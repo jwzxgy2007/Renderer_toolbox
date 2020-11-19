@@ -1,6 +1,7 @@
-from .object import Obj
+from .object import Mesh, Camera
 from .renderer import Renderer
 from .scene import Scene
-__all__=['Obj',
+__all__=['Mesh',
+        'Camera',
         'Renderer',
         'Scene']
