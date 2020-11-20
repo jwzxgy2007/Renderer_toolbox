@@ -1,13 +1,19 @@
 from core import Mesh, Camera, Scene
+from core import Renderer
 
 
 
+def example_1():
+    scene = Scene()
 
+    cam = Camera(position=[10, 10, 10], look_at = [0, 0, 0], up = [0, 1, 0])
+    scene.addCam(cam)
 
-Scene = Scene()
-cam = Camera(position=[0, 0, 5], look_at = [0, 0, 0], up = [0, 1, 0])
-Scene.add_cam(cam)
-mesh_cube = Mesh('cube.obj')
-Scene.add_mesh(mesh_cube)
+    mesh_cube = Mesh('cube.obj')
+    scene.addMesh(mesh_cube)
 
-render = Render()
+    renderer = Renderer('mitsuba',sample=32)
+
+    renderer.render('test.png',scene)
+
+example_1()

@@ -1,24 +1,24 @@
 class Renderer():
-    """
-    docstring
-    """
-    def __init__(self, backbone):
+
+    def __init__(self, backbone, **kwargs):
+
         if backbone == 'blender':
             try:
-                from core.renderer import Blender_renderer
-                self.renderer = Blender_renderer()
+                from core.renderer_backbone import Blender_renderer
+                self.renderer = Blender_renderer(**kwargs)
             except:
                 print('Cannot find blender, please install')
-                pass
-        elif backbone == 'blender':
+                
+        elif backbone == 'mitsuba':
             try:
-                from core.renderer import Mitsuba_renderer
-                self.renderer = Mitsuba_renderer()
+                from core.renderer_backbone import Mitsuba_renderer
+                self.renderer = Mitsuba_renderer(**kwargs)
             except:
                 print('Cannot find mitsuba, please install')
-                pass
+                
         else:
             raise NotImplementedError
-        pass
-    def render(self):
-        pass
+        
+    def render(self, savepath, scene):
+        self.renderer.render(savepath, scene)
+        

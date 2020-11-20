@@ -1,6 +1,21 @@
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 
+def point_at(obj, target, roll=0):
+    if not isinstance(target, mathutils.Vector):
+        target = mathutils.Vector(target)
+    loc = obj.location
+    direction = target - loc
+
+    quat = direction.to_track_quat('-Z', 'Y')
+
+    quat = quat.to_matrix().to_4x4()
+    rollMatrix = mathutils.Matrix.Rotation(roll, 4, 'Z')
+
+    loc = loc.to_tuple()
+    obj.matrix_world = quat @ rollMatrix
+    obj.location = loc
+
 def add_indent(text,n):
   sp = " "*n
   lsep = chr(10) if text.find(chr(13)) == -1 else chr(13)+chr(10)
