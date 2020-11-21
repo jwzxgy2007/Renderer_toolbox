@@ -44,7 +44,7 @@ Finally, you can render through
 
 This is a initial script now, some features need to be added in the future
 
-[ ] Documents
-[ ] Object transform
-[ ] Lighting
-[ ] Normal, depth rendering
+- [ ] Documents
+- [ ] Object transform
+- [ ] Lighting
+- [ ] Normal, depth rendering
