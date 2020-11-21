@@ -1,34 +1,21 @@
 import numpy as np
 class Mesh:
-    """
-    docstring
-    """
     def __init__(self, filename):
         super().__init__()
         self.filename = filename
         self.transform_list = []
 
     def applyScale(self, s):
-        self.transform_list.app
+        self.transform_list.append(['s',s])
     def applyRot(self, rot):
-        self.__r = rot
+        self.transform_list.append(['r',rot])
     def applyTrans(self, trans):
-        self.__t = trans
-
-    def getScale(self):
-        return self.__s
-    def getRot(self):
-        return self.__r
-    def getTrans(self):
-        return self.__t
+        self.transform_list.append(['t',trans])
 
 
 
 
 class Camera:
-    """
-    docstring
-    """
     def __init__(self, position = [0, 0, 1], look_at = [0, 0, 0], up = [0, 1, 0]):
         self.__position = position
         self.__look_at = look_at

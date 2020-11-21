@@ -1,0 +1,17 @@
+newmtl 7_48fe0333-9c9a-47d2-938a-b093a29af8d1
+map_Kd 7_48fe0333-9c9a-47d2-938a-b093a29af8d1.png
+newmtl 6_f10369ae-7b27-46b9-aeeb-3ef930a70aaa
+map_Kd 6_f10369ae-7b27-46b9-aeeb-3ef930a70aaa.png
+newmtl 5_fb2c12f1-6169-41d3-b739-e5a48aea86c9
+map_Kd 5_fb2c12f1-6169-41d3-b739-e5a48aea86c9.png
+newmtl 4_b9237c75-6b5b-4c0f-a776-5ab036c5fb22
+map_Kd 4_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.png
+newmtl 3_b9237c75-6b5b-4c0f-a776-5ab036c5fb22
+map_Kd 3_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.png
+newmtl 2_69a2550c-ec04-44d9-a621-e601330a9cb6
+map_Kd 2_69a2550c-ec04-44d9-a621-e601330a9cb6.png
+newmtl 1_39412e5f-0053-4a56-b9ea-63af68632e20
+map_Kd 1_39412e5f-0053-4a56-b9ea-63af68632e20.png
+newmtl object_mesh
+Kd 0.393529 0.393529 0.393529
+Ka 0 0 0

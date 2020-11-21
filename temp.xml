@@ -6,12 +6,390 @@
           <boolean name="hide_emitters" value="true"/>
      </integrator>
      <shape type="obj">
-          <string name="filename" value="cube.obj"/>
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\Aisle-282668\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\Bathroom-282652\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\Kitchen-282564\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\10_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.obj"/>
+          <ref id="bsdf3"/>
+     </shape>
+     <texture id="tex3" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/10_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.png"/>
+     </texture>
+     <bsdf id="bsdf3" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex3" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\11_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.obj"/>
+          <ref id="bsdf4"/>
+     </shape>
+     <texture id="tex4" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/11_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.png"/>
+     </texture>
+     <bsdf id="bsdf4" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex4" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\12_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.obj"/>
+          <ref id="bsdf5"/>
+     </shape>
+     <texture id="tex5" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/12_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.png"/>
+     </texture>
+     <bsdf id="bsdf5" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex5" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\13_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.obj"/>
+          <ref id="bsdf6"/>
+     </shape>
+     <texture id="tex6" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/13_8d47cb7b-eff9-46e1-924c-2e33eed6f20c.png"/>
+     </texture>
+     <bsdf id="bsdf6" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex6" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\14_2da09b49-7b5e-4777-ab7e-b128ba816932.obj"/>
+          <ref id="bsdf7"/>
+     </shape>
+     <texture id="tex7" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/14_2da09b49-7b5e-4777-ab7e-b128ba816932.png"/>
+     </texture>
+     <bsdf id="bsdf7" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex7" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\15_325efbab-7eb5-4f8e-bdf8-b16b7a0b2aeb.obj"/>
+          <ref id="bsdf8"/>
+     </shape>
+     <texture id="tex8" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/15_325efbab-7eb5-4f8e-bdf8-b16b7a0b2aeb.png"/>
+     </texture>
+     <bsdf id="bsdf8" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex8" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\16_4bdb8763-e976-43a0-ab37-23bb156cd742.obj"/>
+          <ref id="bsdf9"/>
+     </shape>
+     <texture id="tex9" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/16_4bdb8763-e976-43a0-ab37-23bb156cd742.png"/>
+     </texture>
+     <bsdf id="bsdf9" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex9" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\17_cfa158a1-24a3-4f00-a999-ef7c64aa4f44.obj"/>
+          <ref id="bsdf10"/>
+     </shape>
+     <texture id="tex10" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/17_cfa158a1-24a3-4f00-a999-ef7c64aa4f44.png"/>
+     </texture>
+     <bsdf id="bsdf10" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex10" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\18_2a89f148-8de5-4100-a6f4-e0019bd6e57b.obj"/>
+          <ref id="bsdf11"/>
+     </shape>
+     <texture id="tex11" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/18_2a89f148-8de5-4100-a6f4-e0019bd6e57b.png"/>
+     </texture>
+     <bsdf id="bsdf11" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex11" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\1_97d47716-c1d9-4fea-baf2-60a0fec7712c.obj"/>
+          <ref id="bsdf12"/>
+     </shape>
+     <texture id="tex12" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/1_97d47716-c1d9-4fea-baf2-60a0fec7712c.png"/>
+     </texture>
+     <bsdf id="bsdf12" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex12" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\2_1c6f1892-23cf-41ee-b707-7d79fca07cf3.obj"/>
+          <ref id="bsdf13"/>
+     </shape>
+     <texture id="tex13" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/2_1c6f1892-23cf-41ee-b707-7d79fca07cf3.png"/>
+     </texture>
+     <bsdf id="bsdf13" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex13" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\3_d7b7be7a-5ed6-419e-8d47-cfa909735db7.obj"/>
+          <ref id="bsdf14"/>
+     </shape>
+     <texture id="tex14" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/3_d7b7be7a-5ed6-419e-8d47-cfa909735db7.png"/>
+     </texture>
+     <bsdf id="bsdf14" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex14" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\4_d7817105-3471-4fb8-be9c-22077d239cbe.obj"/>
+          <ref id="bsdf15"/>
+     </shape>
+     <texture id="tex15" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/4_d7817105-3471-4fb8-be9c-22077d239cbe.png"/>
+     </texture>
+     <bsdf id="bsdf15" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex15" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\5_d7817105-3471-4fb8-be9c-22077d239cbe.obj"/>
+          <ref id="bsdf16"/>
+     </shape>
+     <texture id="tex16" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/5_d7817105-3471-4fb8-be9c-22077d239cbe.png"/>
+     </texture>
+     <bsdf id="bsdf16" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex16" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\6_7a0ff9f9-85e9-4bde-93ca-c2c929233258.obj"/>
+          <ref id="bsdf17"/>
+     </shape>
+     <texture id="tex17" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/6_7a0ff9f9-85e9-4bde-93ca-c2c929233258.png"/>
+     </texture>
+     <bsdf id="bsdf17" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex17" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\7_3f80a5f1-0c85-4b36-8ef5-0a020b6bd18c.obj"/>
+          <ref id="bsdf18"/>
+     </shape>
+     <texture id="tex18" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/7_3f80a5f1-0c85-4b36-8ef5-0a020b6bd18c.png"/>
+     </texture>
+     <bsdf id="bsdf18" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex18" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\8_8b814b90-c4ef-4276-be4b-20ac374a14b6.obj"/>
+          <ref id="bsdf19"/>
+     </shape>
+     <texture id="tex19" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/8_8b814b90-c4ef-4276-be4b-20ac374a14b6.png"/>
+     </texture>
+     <bsdf id="bsdf19" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex19" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\9_ffd71c3f-5625-4090-a8d7-a3caba1af504.obj"/>
+          <ref id="bsdf20"/>
+     </shape>
+     <texture id="tex20" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/LivingRoom-282598/9_ffd71c3f-5625-4090-a8d7-a3caba1af504.png"/>
+     </texture>
+     <bsdf id="bsdf20" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex20" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\LivingRoom-282598\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\1_39412e5f-0053-4a56-b9ea-63af68632e20.obj"/>
+          <ref id="bsdf22"/>
+     </shape>
+     <texture id="tex22" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/1_39412e5f-0053-4a56-b9ea-63af68632e20.png"/>
+     </texture>
+     <bsdf id="bsdf22" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex22" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\2_69a2550c-ec04-44d9-a621-e601330a9cb6.obj"/>
+          <ref id="bsdf23"/>
+     </shape>
+     <texture id="tex23" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/2_69a2550c-ec04-44d9-a621-e601330a9cb6.png"/>
+     </texture>
+     <bsdf id="bsdf23" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex23" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\3_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.obj"/>
+          <ref id="bsdf24"/>
+     </shape>
+     <texture id="tex24" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/3_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.png"/>
+     </texture>
+     <bsdf id="bsdf24" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex24" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\4_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.obj"/>
+          <ref id="bsdf25"/>
+     </shape>
+     <texture id="tex25" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/4_b9237c75-6b5b-4c0f-a776-5ab036c5fb22.png"/>
+     </texture>
+     <bsdf id="bsdf25" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex25" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\5_fb2c12f1-6169-41d3-b739-e5a48aea86c9.obj"/>
+          <ref id="bsdf26"/>
+     </shape>
+     <texture id="tex26" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/5_fb2c12f1-6169-41d3-b739-e5a48aea86c9.png"/>
+     </texture>
+     <bsdf id="bsdf26" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex26" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\6_f10369ae-7b27-46b9-aeeb-3ef930a70aaa.obj"/>
+          <ref id="bsdf27"/>
+     </shape>
+     <texture id="tex27" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/6_f10369ae-7b27-46b9-aeeb-3ef930a70aaa.png"/>
+     </texture>
+     <bsdf id="bsdf27" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex27" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\7_48fe0333-9c9a-47d2-938a-b093a29af8d1.obj"/>
+          <ref id="bsdf28"/>
+     </shape>
+     <texture id="tex28" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/MasterBedroom-282636/7_48fe0333-9c9a-47d2-938a-b093a29af8d1.png"/>
+     </texture>
+     <bsdf id="bsdf28" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex28" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\MasterBedroom-282636\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\1_7b44b535-cb30-472a-8b6e-df6fd31c848c.obj"/>
+          <ref id="bsdf30"/>
+     </shape>
+     <texture id="tex30" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/SecondBedroom-282617/1_7b44b535-cb30-472a-8b6e-df6fd31c848c.png"/>
+     </texture>
+     <bsdf id="bsdf30" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex30" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\2_6c185b06-6b95-45d0-bad2-fea9895e1e5a.obj"/>
+          <ref id="bsdf31"/>
+     </shape>
+     <texture id="tex31" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/SecondBedroom-282617/2_6c185b06-6b95-45d0-bad2-fea9895e1e5a.png"/>
+     </texture>
+     <bsdf id="bsdf31" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex31" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\3_62319141-32fa-4353-b2ff-ec31ca232e3e.obj"/>
+          <ref id="bsdf32"/>
+     </shape>
+     <texture id="tex32" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/SecondBedroom-282617/3_62319141-32fa-4353-b2ff-ec31ca232e3e.png"/>
+     </texture>
+     <bsdf id="bsdf32" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex32" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\4_c2455922-3285-443f-886c-73a06874423d.obj"/>
+          <ref id="bsdf33"/>
+     </shape>
+     <texture id="tex33" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/SecondBedroom-282617/4_c2455922-3285-443f-886c-73a06874423d.png"/>
+     </texture>
+     <bsdf id="bsdf33" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex33" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\5_d4585471-281f-4cd5-b094-2091dbc20107.obj"/>
+          <ref id="bsdf34"/>
+     </shape>
+     <texture id="tex34" type="bitmap">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254/SecondBedroom-282617/5_d4585471-281f-4cd5-b094-2091dbc20107.png"/>
+     </texture>
+     <bsdf id="bsdf34" type="twosided">
+          <bsdf type="diffuse">
+               <ref id="tex34" name="reflectance"/>
+          </bsdf>
+     </bsdf>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\SecondBedroom-282617\mesh_noceilling.obj"/>
+     </shape>
+     <shape type="obj">
+          <string name="filename" value="./example/0018b6c8-c3b6-4fb8-a640-4b9b0b763254\Terrace-279576\mesh_noceilling.obj"/>
      </shape>
      <sensor type="perspective">
-          <string name="focal_length" value="50"/>
+          <string name="focal_length" value="42"/>
           <transform name="to_world">
-               <lookat origin="10, 10, 10" target="0, 0, 0" up="0, 1, 0"/>
+               <lookat origin="-0.36426058939487765, 31.056825509290178, 1.4486514645213138" target="0.012010257794618952, -0.9986883932079056, -0.04977194972591086" up="0.0014744734239122432, 0.049793173838666896, -0.9987584621755125"/>
           </transform>
           <sampler type="independent">
                <integer name="sample_count" value="32"/>

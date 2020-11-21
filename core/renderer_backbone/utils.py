@@ -1,20 +1,11 @@
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+try:
+    import mathutils
+except:
+    print('')
 
-def point_at(obj, target, roll=0):
-    if not isinstance(target, mathutils.Vector):
-        target = mathutils.Vector(target)
-    loc = obj.location
-    direction = target - loc
 
-    quat = direction.to_track_quat('-Z', 'Y')
-
-    quat = quat.to_matrix().to_4x4()
-    rollMatrix = mathutils.Matrix.Rotation(roll, 4, 'Z')
-
-    loc = loc.to_tuple()
-    obj.matrix_world = quat @ rollMatrix
-    obj.location = loc
 
 def add_indent(text,n):
   sp = " "*n
@@ -145,6 +136,7 @@ class Sensor:
     def apply(self, parent):
         sensor = ET.SubElement(parent, 'sensor', {'type': self.type})
         defString(sensor, 'focal_length', str(self.focal_length))
+        # defFloat(sensor,'fov',str(self.focal_length))
         trans = ET.SubElement(sensor, 'transform', {'name': 'to_world'})
         if self.target is not None:
             ET.SubElement(trans, 'lookat', {'origin': self.origin, 'target': self.target, 'up': self.up})
