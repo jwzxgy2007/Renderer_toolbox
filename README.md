@@ -12,16 +12,16 @@ I recommend using anaconda to install dependencies.
     conda install -c open3d-admin open3d
     pip install addict matplotlib pandas plyfile pyyaml tqdm sklearn
 
-Now, you can use blender to rendering! If you want to use mitsuba2, please follow the [mitsuba2](https://mitsuba2.readthedocs.io/en/latest/) to install mitsuba2, and *don't forget add 'gpu_rgb' in `mitsuba.conf` if you want to use GPU to rendering*.
+Now, you can use blender to rendering! If you want to use mitsuba2, please follow the [mitsuba2](https://mitsuba2.readthedocs.io/en/latest/) to install mitsuba2, and **don't forget add 'gpu_rgb' in `mitsuba.conf` if you want to use GPU to rendering**.
 
 
 ### examples
 
-You can see the examples.py to know how to use.
+You can see the `examples.py` to know how to use. The folder `example` is from [3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), and you can use the `json2obj.py` from [https://github.com/3D-FRONT-FUTURE/3D-FRONT-ToolBox/tree/master/scripts](https://github.com/3D-FRONT-FUTURE/3D-FRONT-ToolBox/tree/master/scripts) to get more scenes.
 
 First, you need to inital a scene
 
-`scene = Scene()`
+    scene = Scene()
 
 Next, you need to add a camera, and set `position, look_at, up` vector.
 
