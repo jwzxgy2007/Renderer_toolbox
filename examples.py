@@ -13,12 +13,8 @@ def example_1():
 
     mesh_cube = Mesh('cube.obj')
     scene.addMesh(mesh_cube)
-    try:
-        renderer = Renderer('mitsuba',sample=32)
-        renderer.render('D:/zlx/Renderer_toolbox/test2.png',scene)
-    except:
-        renderer = Renderer('blender',sample=32)
-        renderer.render('D:/zlx/Renderer_toolbox/test3.png',scene)
+    renderer = Renderer('blender',sample=32, weigh = 512, height = 512)
+    renderer.render('/path/to/save',scene)
 
 def example_2():
     import os
@@ -37,11 +33,8 @@ def example_2():
             mesh = Mesh(os.path.join(scene_path, room, obj_name))
             scene.addMesh(mesh)
     scene.setCamGUI()
-    try:
-        renderer = Renderer('mitsuba',sample=32)
-        renderer.render('D:/zlx/Renderer_toolbox/test2.png',scene)
-    except:
-        renderer = Renderer('blender',sample=32)
-        renderer.render('D:/zlx/Renderer_toolbox/test3.png',scene)
+    
+    renderer = Renderer('mitsuba',sample=32, weigh = 512, height = 512, per_sample = 2)
+    renderer.render('D:/zlx/Renderer_toolbox/test2.png',scene)
 
 example_2()
